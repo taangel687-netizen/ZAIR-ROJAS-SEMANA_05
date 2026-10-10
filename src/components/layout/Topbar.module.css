@@ -1,0 +1,7 @@
+.topbar {
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
+  padding: 1.25rem 1.5rem; background: #fff; border-bottom: 1px solid #e2e8f0;
+}
+.title { margin: 0; font-size: 1.5rem; font-weight: 700; color: var(--color-primary); }
+.subtitle { margin: 0.15rem 0 0; font-size: 0.85rem; color: #64748b; }
+.actions { display: flex; align-items: center; gap: 0.75rem; }

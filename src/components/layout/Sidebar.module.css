@@ -1,0 +1,20 @@
+.nav { display: flex; flex-direction: column; min-height: 100%; padding: 1.25rem 1rem; }
+.brand { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.75rem; }
+.logo {
+  display: grid; place-items: center;
+  width: 40px; height: 40px; border-radius: 10px;
+  background: var(--color-accent); color: var(--color-primary-dark);
+  font-weight: 800; font-size: 1.25rem;
+}
+.brandName { margin: 0; font-weight: 700; font-size: 1.05rem; color: #fff; }
+.tagline { margin: 0; font-size: 0.75rem; color: #94a3b8; }
+.list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.25rem; }
+.link {
+  display: block; padding: 0.6rem 0.75rem; border-radius: 8px;
+  color: #cbd5e1; text-decoration: none; font-size: 0.92rem;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.link:hover { background: rgba(255, 255, 255, 0.08); color: #fff; }
+.current { background: rgba(255, 255, 255, 0.14); color: #fff; font-weight: 600; }
+.footer { margin-top: auto; padding-top: 1.5rem; font-size: 0.75rem; color: #94a3b8; line-height: 1.5; }
+@media (max-width: 860px) { .footer { display: none; } .nav { min-height: 0; } }

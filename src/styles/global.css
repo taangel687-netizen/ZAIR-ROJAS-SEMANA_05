@@ -1,0 +1,19 @@
+/* Tailwind v4: reset (preflight) + utilidades. Se importa UNA sola vez, aquí. */
+@import "tailwindcss";
+
+/* Solo reset y variables globales. Los estilos de componentes viven en *.module.css */
+:root {
+  --color-bg: #f1f5f9;
+  --color-text: #0f172a;
+  --color-primary: #1e3a8a;
+  --color-primary-dark: #0f1f4d;
+  --color-accent: #fbbf24;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--color-bg); color: var(--color-text); min-height: 100vh; }
+
+/* ---- Ejemplo DIDÁCTICO de estilo global (lo usa StyleLab para mostrar colisiones) ---- */
+.demo-global-title { margin: 0; font-size: 1.05rem; font-weight: 700; color: #dc2626; }

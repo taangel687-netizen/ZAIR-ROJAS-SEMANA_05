@@ -1,0 +1,12 @@
+.panel {
+  background: #fff; border-radius: 12px; box-shadow: 0 1px 3px rgba(15, 23, 42, 0.12);
+  display: flex; flex-direction: column; scroll-margin-top: 1rem;
+}
+.header {
+  display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem;
+  padding: 1rem 1.25rem; border-bottom: 1px solid #e2e8f0;
+}
+.title { margin: 0; font-size: 1.05rem; font-weight: 700; color: #0f172a; }
+.subtitle { margin: 0.2rem 0 0; font-size: 0.82rem; color: #64748b; }
+.actions { display: flex; gap: 0.5rem; align-items: center; }
+.body { padding: 1.25rem; flex: 1; }
